@@ -1,0 +1,155 @@
+#menuBtn {
+  margin-top: 10px;
+  padding: 8px;
+  position: absolute;
+  right: 10px;
+  background-color: lavender;
+}
+.btnGroup {
+  width: 270px;
+}
+h3 {
+  position: absolute;
+  left: 17px;
+  background-color: lavender;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  color: midnightblue;
+}
+
+#add {
+  display: flex;
+  /* align-items: center; */
+  position: absolute;
+  top: 145px;
+  left: 410px;
+}
+
+#addBtn {
+  /* background-color: silver; */
+  background-color: lightslategray;
+  border-radius: 6px;
+  color: white;
+}
+#addField {
+  width: 500px;
+  background-color: rgb(252, 250, 244);
+}
+
+.scrollA {
+  position: absolute;
+  top: 210px;
+  left: 350px;
+  max-height: 330px;
+  overflow-y: scroll;
+}
+.scroll {
+  position: absolute;
+  top: 180px;
+  left: 350px;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.mainList {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  position: relative;
+}
+
+#mainTextField {
+  width: 580px;
+}
+
+.list {
+  padding: 20px;
+  width: 550px;
+  background-color: rgb(252, 250, 244);
+  color: white;
+  border: 1px aliceblue;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.checkList {
+  padding: 20px;
+  width: 550px;
+  background-color: mistyrose;
+  border-radius: 4px;
+}
+.clean {
+  position: absolute;
+  bottom: 30px;
+  right: 350px;
+}
+.checked {
+  position: absolute;
+  bottom: 15px;
+  right: 300px;
+}
+#checkedid {
+  height: 50px;
+  color: white;
+  background-color: lightcoral;
+  border-color: lightcoral;
+  border-radius: 8px;
+  text-align: center;
+  size: large;
+}
+
+#editIcon {
+  background-color: lightsteelblue;
+}
+
+#deleteIcon {
+  background-color: lightcoral;
+}
+
+.recycleBtn {
+  position: absolute;
+  bottom: 30px;
+  left: 500px;
+}
+#cleanrecycle {
+  background-color: lightcoral;
+}
+#closerecycle {
+  background-color: lightsteelblue;
+}
+
+.search {
+  position: absolute;
+  margin-top: 10px;
+  padding: 8px;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  background-color: lavender;
+  left: 140px;
+  border-radius: 5px;
+}
+#search {
+  border-radius: 5px;
+  height: 15px;
+}
+
+#dialogTitle {
+  text-align: center;
+}
+
+.bin {
+  position: absolute;
+  top: 80px;
+  left: 580px;
+  color: slategray;
+  background-color: lavender;
+  border-radius: 10px;
+  width: 200px;
+  height: 35px;
+}
+
+#myList {
+  top: 70px;
+}
